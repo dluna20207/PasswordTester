@@ -1,0 +1,29 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+
+#passwordInputHeading{
+    text-align: center;
+    align-content: center;
+    top: 0px;
+}
+
+#passwordInput{
+    width: 50%;
+    height: 40px;
+    font-size: 36px;
+    top: 0px;
+}
+
+#passwordCheck{
+    width: 40px;
+    height: 40px;
+    top: 0px;
+}
+
+#strengthButton{
+    margin-top: 5%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}

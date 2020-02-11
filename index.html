@@ -11,13 +11,24 @@
 </head>
 
 <body>
-    <input type="password" value="" id="passwordInput">
+    <div id="passwordInputHeading">
+        <h1>INPUT PASSWORD TO TEST STRENGTH</h1>
+        <input type="password" value="" id="passwordInput">
 
-    </input>
+        </input>
 
-    <input type="checkbox" onclick="myFunction()">
-    </input>
+        <input type="checkbox" onclick="passwordVisible()" id="passwordCheck">
+        Show Password
+        </input>
+    </div>
 
+    <button id="strengthButton" onclick="strengthCheck()">
+        CHECK STRENGTH
+    </button>
+
+    <h1 id="strengthOutput">
+
+    </h1>
 
     <script src="script.js"></script>
 </body>
