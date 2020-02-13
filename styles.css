@@ -27,3 +27,55 @@ body{
     margin-top: 5%;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+@keyframes bgcolor {
+    14.2857142857% {
+        background-color: red
+    }
+
+    28.5714285714% {
+        background-color: orange
+    }
+
+    42.8571428571% {
+        background-color: yellow
+    }
+
+    57.14285714% {
+        background-color: green
+    }
+
+    71.42857143% {
+        background-color: blue
+    }
+
+    85.71428571% {
+        background-color: indigo
+    }
+
+    100% {
+        background-color: violet
+    }
+
+}
+
+.rainbow {
+    -webkit-animation: bgcolor 6s infinite;
+    animation: bgcolor 3s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
