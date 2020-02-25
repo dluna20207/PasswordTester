@@ -10,9 +10,6 @@ function passwordVisible() {
 function strengthCheck() {
     let passwordValue = document.getElementById("passwordInput").value;
     let strengthValue = 0;
-    var myPassword = "myPassword";
-    var encrypted = CryptoJS.AES.encrypt(passwordValue, myPassword);
-    var decrypted = CryptoJS.AES.decrypt(encrypted, myPassword);
 
     if (passwordValue.length >= 15) {
         strengthValue++;

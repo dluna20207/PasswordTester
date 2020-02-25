@@ -4,6 +4,10 @@ body{
     align-content: center;
 }
 
+.tb1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 #passwordInputHeading{
     text-align: center;
     align-content: center;
